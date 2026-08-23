@@ -1,63 +1,39 @@
 <h1 align="center">Hi, I'm Ayoub 👋</h1>
 
-<h3 align="center">Engineering Student @ ENSA Fès | Networking & Cybersecurity | AI Security Enthusiast</h3>
+<h3 align="center">Engineering student @ ENSA Fès | Networking & Cybersecurity | AI Security enthusiast</h3>
 
 <p align="center">
-  <img src="https://demolab.com" alt="Typing SVG" />
-</p>
-
-<p align="center">
-  <img src="https://vercel.app" alt="Header Banner" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=2E9EF7&center=true&vCenter=true&width=600&lines=Networking+%2B+Security+%2B+AI;Building+labs%2C+breaking+things%2C+writing+it+up;OverTheWire+Bandit+%2334%2F34+cleared;Currently+learning+Python+%26+offensive+security" alt="Typing SVG" />
 </p>
 
 ---
 
 ### 🧭 About Me
 
-I'm a student in the **GSCSI** filière (*Génie des Systèmes Communicants et Sécurité Informatique*) at **ENSA Fès**, a Bac+5 Ingénieur d'État program. I'm building toward a career in **cybersecurity and AI security**.
+I'm a student in the **GSCSI** filière (Génie des Systèmes Communicants et Sécurité Informatique) at **ENSA Fès**, a Bac+5 Ingénieur d'État program, after two years of classes préparatoires. I'm building toward a career in **cybersecurity and AI security**.
 
-My approach to learning is simple and repeatable: **watch ➔ take detailed notes ➔ build hands-on labs ➔ write it up publicly.** 
+My approach to learning is simple and repeatable: **watch → take detailed notes → build hands-on labs → write it up publicly.** This repo (and the ones pinned below) are the public trail of that process.
 
-- 🔭 **Currently building:** Python security tooling & offensive scripts
-- 🌱 **Currently learning:** Python (transitioning from a heavy C background) 
-- 🎓 **Completed:** All 34 levels of **OverTheWire Bandit** & advanced Cisco Packet Tracer topologies
-- 💼 **Past:** IT Support Observation Internship at **Alten Fès**
-- 🗣️ **Languages:** Arabic (Native) · French (C1, DALF) · English (B2, Cambridge) · Spanish (B1) 
-
----
-
-### 🛠️ Tech Stack & Tools
-
-<p align="left">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev" alt="My Skills" />
-  </a>
-</p>
-
-<p align="left">
-  <img src="https://shields.io" />
-  <img src="https://shields.io" />
-</p>
+- 🔭 Currently building: home lab environments (GNS3/EVE-NG, pfSense, Security Onion) and Python security tooling
+- 🌱 Currently learning: Python (coming from a C background) and preparing for **eJPT**
+- 🎓 Completed: all 34 levels of **OverTheWire Bandit**, a multi-lab Cisco Packet Tracer series culminating in a full WAN/VLAN/ACL capstone
+- 💼 Past: IT support observation internship at **Alten Fès**
+- 🗣️ Languages: Arabic (native), French (C1, DALF), English (B2, Cambridge), currently building Spanish (B1) and German (B2)
+- 📫 Reach me: ** ayoubbouayad89@gmail.com]** · ** [ayoub-bouayad-1712b3389](https://linkedin.com)** 
 
 ---
 
-### 🎥 Featured Lab Walkthroughs & Resources
-<table>
-  <tr>
-    <td width="50%">
-      <a href="https://youtube.com">
-        <img src="https://youtube.com" width="100%" alt="Network Lab" /><br/>
-        <b>➔ Cisco Packet Tracer Enterprise Network Setup</b>
-      </a>
-    </td>
-    <td width="50%">
-      <a href="https://youtube.com">
-        <img src="https://youtube.com" width="100%" alt="Linux Security" /><br/>
-        <b>➔ OverTheWire: Bandit Walkthrough Guide</b>
-      </a>
-    </td>
-  </tr>
-</table>
+### 🛠️ Tech & Tools
+
+<p align="left">
+  <img src="https://img.shields.io/badge/Cisco-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white" />
+  <img src="https://img.shields.io/badge/pfSense-212121?style=for-the-badge&logo=pfsense&logoColor=white" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white" />
+</p>
 
 ---
 
@@ -65,31 +41,30 @@ My approach to learning is simple and repeatable: **watch ➔ take detailed note
 
 | Project | Description |
 |---|---|
-| [🔒 OverTheWire Bandit Writeups](#) | Full walkthrough and notes for all 34 levels — Linux fundamentals and privilege escalation. |
-| [🌐 ALTEN Global Network Simulation](#) | Capstone Packet Tracer project: multi-site WAN, VLANs, router-on-a-stick, and ACLs. |
-| [🧪 Cisco Packet Tracer Lab Series](#) | Progressive networking labs building up from basic topologies to complex corporate networks. |
+| [OverTheWire Bandit Writeups](#) | Full walkthrough and notes for all 34 levels — Linux fundamentals, privilege escalation basics, and shell tricks |
+| [ALTEN Global Network Simulation](#) | Capstone Packet Tracer project: multi-site WAN, VLANs, router-on-a-stick, ACLs, and a custom HTTP portal |
+| [Cisco Packet Tracer Lab Series](#) | Progressive networking labs building up from basic topologies to the capstone above |
 
 ---
 
-### 📊 GitHub Activity & Metrics
+### 📊 GitHub Stats
 
 <p align="center">
-  <img height="165" src="https://vercel.app" alt="Ayoub's GitHub Stats" />
-  <img height="165" src="https://vercel.app" alt="Top Languages" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=default&hide_border=true" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&hide_border=true" />
 </p>
 
 <p align="center">
-  <img src="https://herokuapp.com" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_GITHUB_USERNAME&hide_border=true" />
 </p>
 
 ---
 
-### 🤝 Connect With Me
+### 🎯 What I'm working toward
 
-<p align="left">
-  <a href="https://linkedin.com"><img src="https://shields.io" /></a>
-  <a href="mailto:ayoubbouayad89@gmail.com"><img src="https://shields.io" /></a>
-</p>
+- ✅ GSCSI-bundled certifications (Cisco, Huawei, AWS, Internet Society)
 
-<p align="center"><i>Always learning, always documenting. 🚀</i></p>
+- 🔜 Publishing every lab and writeup here as I build them
+
+<p align="center"><i>Always learning, always documenting.</i></p>
 
