@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=YOUR_GITHUB_USERNAME&color=2E9EF7&style=flat" alt="profile views" />
+  <img src="https://komarev.com/ghpvc/?username=AyoubBouayadcyber&color=2E9EF7&style=flat" alt="profile views" />
 </p>
 
 ---
@@ -20,11 +20,11 @@ I'm a student in the **GSCSI** filière (Génie des Systèmes Communicants et S�
 
 My approach to learning is simple and repeatable: **watch → take detailed notes → build hands-on labs → write it up publicly.** This repo (and the ones pinned below) are the public trail of that process.
 
-- 🔭 Currently building: Python security tooling
-- 🌱 Currently learning: Python (coming from a C background) 
+- 🔭 Currently building: home lab environments (GNS3/EVE-NG, pfSense, Security Onion) and Python security tooling
+- 🌱 Currently learning: Python (coming from a C background) and preparing for **eJPT**
 - 🎓 Completed: all 34 levels of **OverTheWire Bandit**, a multi-lab Cisco Packet Tracer series culminating in a full WAN/VLAN/ACL capstone
 - 💼 Past: IT support observation internship at **Alten Fès**
-- 🗣️ Languages: Arabic (native), French (C1, DALF), English (B2, Cambridge), currently building Spanish (B1) 
+- 🗣️ Languages: Arabic (native), French (C1, DALF), English (B2, Cambridge), currently building Spanish (B1) and German (B2)
 - 📫 Reach me: **[ayoubbouayad89@gmail.com](mailto:ayoubbouayad89@gmail.com)** · **[LinkedIn](https://linkedin.com/in/ayoub-bouayad-1712b3389)**
 
 ---
@@ -50,16 +50,11 @@ My approach to learning is simple and repeatable: **watch → take detailed note
 ### 📊 GitHub Stats
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=tokyonight&hide_border=true" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=tokyonight&hide_border=true" />
+  <img src="https://streak-stats.demolab.com/?user=AyoubBouayadcyber&theme=tokyonight&hide_border=true" />
 </p>
 
 <p align="center">
- <img src="https://github-readme-streak-stats-eight.vercel.app/?user=YOUR_GITHUB_USERNAME&theme=tokyonight&hide_border=true" />
-</p>
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=YOUR_GITHUB_USERNAME&theme=tokyonight&no-frame=true&row=1&column=6" />
+  <img src="https://github-profile-trophy.vercel.app/?username=AyoubBouayadcyber&theme=tokyonight&no-frame=true&row=1&column=6" />
 </p>
 
 ---
