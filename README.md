@@ -20,11 +20,11 @@ I'm a student in the **GSCSI** filière (Génie des Systèmes Communicants et S�
 
 My approach to learning is simple and repeatable: **watch → take detailed notes → build hands-on labs → write it up publicly.** This repo (and the ones pinned below) are the public trail of that process.
 
-- 🔭 Currently building: home lab environments (GNS3/EVE-NG, pfSense, Security Onion) and Python security tooling
-- 🌱 Currently learning: Python (coming from a C background) and preparing for **eJPT**
+- 🔭 Currently building:  Python security tooling
+- 🌱 Currently learning: Python (coming from a C background) 
 - 🎓 Completed: all 34 levels of **OverTheWire Bandit**, a multi-lab Cisco Packet Tracer series culminating in a full WAN/VLAN/ACL capstone
 - 💼 Past: IT support observation internship at **Alten Fès**
-- 🗣️ Languages: Arabic (native), French (C1, DALF), English (B2, Cambridge), currently building Spanish (B1) and German (B2)
+- 🗣️ Languages: Arabic (native), French (C1, DALF), English (B2, Cambridge), currently building Spanish (B1) 
 - 📫 Reach me: **[ayoubbouayad89@gmail.com](mailto:ayoubbouayad89@gmail.com)** · **[LinkedIn](https://linkedin.com/in/ayoub-bouayad-1712b3389)**
 
 ---
