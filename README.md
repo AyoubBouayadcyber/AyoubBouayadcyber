@@ -1,9 +1,15 @@
-<h1 align="center">Hi, I'm Ayoub 👋</h1>
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=2E9EF7&height=200&section=header&text=Hi,%20I'm%20Ayoub%20👋&fontSize=45&fontColor=ffffff&animation=fadeIn" />
+</p>
 
 <h3 align="center">Engineering student @ ENSA Fès | Networking & Cybersecurity | AI Security enthusiast</h3>
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=2E9EF7&center=true&vCenter=true&width=600&lines=Networking+%2B+Security+%2B+AI;Building+labs%2C+breaking+things%2C+writing+it+up;OverTheWire+Bandit+%2334%2F34+cleared;Currently+learning+Python+%26+offensive+security" alt="Typing SVG" />
+</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=YOUR_GITHUB_USERNAME&color=2E9EF7&style=flat" alt="profile views" />
 </p>
 
 ---
@@ -19,20 +25,14 @@ My approach to learning is simple and repeatable: **watch → take detailed note
 - 🎓 Completed: all 34 levels of **OverTheWire Bandit**, a multi-lab Cisco Packet Tracer series culminating in a full WAN/VLAN/ACL capstone
 - 💼 Past: IT support observation internship at **Alten Fès**
 - 🗣️ Languages: Arabic (native), French (C1, DALF), English (B2, Cambridge), currently building Spanish (B1) and German (B2)
-- 📫 Reach me: ** ayoubbouayad89@gmail.com]** · ** [ayoub-bouayad-1712b3389](https://linkedin.com)** 
+- 📫 Reach me: **[ayoubbouayad89@gmail.com](mailto:ayoubbouayad89@gmail.com)** · **[LinkedIn](https://linkedin.com/in/ayoub-bouayad-1712b3389)**
 
 ---
 
 ### 🛠️ Tech & Tools
 
 <p align="left">
-  <img src="https://img.shields.io/badge/Cisco-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white" />
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white" />
-  <img src="https://img.shields.io/badge/pfSense-212121?style=for-the-badge&logo=pfsense&logoColor=white" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white" />
+  <img src="https://skillicons.dev/icons?i=cisco,linux,python,wireshark,git,aws,bash&theme=dark" />
 </p>
 
 ---
@@ -50,12 +50,16 @@ My approach to learning is simple and repeatable: **watch → take detailed note
 ### 📊 GitHub Stats
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=default&hide_border=true" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&hide_border=true" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=tokyonight&hide_border=true" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=tokyonight&hide_border=true" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_GITHUB_USERNAME&hide_border=true" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_GITHUB_USERNAME&theme=tokyonight&hide_border=true" />
+</p>
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=YOUR_GITHUB_USERNAME&theme=tokyonight&no-frame=true&row=1&column=6" />
 </p>
 
 ---
@@ -63,8 +67,10 @@ My approach to learning is simple and repeatable: **watch → take detailed note
 ### 🎯 What I'm working toward
 
 - ✅ GSCSI-bundled certifications (Cisco, Huawei, AWS, Internet Society)
-
 - 🔜 Publishing every lab and writeup here as I build them
 
 <p align="center"><i>Always learning, always documenting.</i></p>
 
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=2E9EF7&height=100&section=footer" />
+</p>
