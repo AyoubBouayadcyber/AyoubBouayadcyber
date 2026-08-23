@@ -1,134 +1,69 @@
-##!/usr/bin/env bash
-#
-# setup_portfolio.sh
-# Scaffolds a full local GitHub portfolio structure with README templates,
-# .gitignore, and LICENSE for each project. Optionally creates and pushes
-# the repos to GitHub automatically if the GitHub CLI (`gh`) is installed
-# and authenticated (run `gh auth login` first).
-#
-# Usage:
-#   chmod +x setup_portfolio.sh
-#   ./setup_portfolio.sh
-#
-# Edit the PROJECTS array below to match your actual project names.
+<h1 align="center">Hi, I'm Ayoub 👋</h1>
 
-set -e
+<h3 align="center">Engineering student @ ENSA Fès | Networking & Cybersecurity | AI Security enthusiast</h3>
 
-GITHUB_USERNAME="YOUR_GITHUB_USERNAME"   # <-- change this
-BASE_DIR="$HOME/portfolio"
-AUTO_PUSH=false   # set to true if you have `gh` installed and authenticated
-
-# project_folder_name : Short description : visibility(public/private)
-PROJECTS=(
-  "bandit-writeups:OverTheWire Bandit walkthroughs (all 34 levels) - Linux fundamentals and privilege escalation basics:public"
-  "packet-tracer-labs:Progressive Cisco Packet Tracer networking labs:public"
-  "alten-global-network-simulation:Capstone project - multi-site WAN, VLANs, router-on-a-stick, ACLs, custom HTTP portal:public"
-  "home-lab-notes:Home lab build log - GNS3/EVE-NG, pfSense, Security Onion, automation:public"
-  "python-security-scripts:Security-focused Python scripts and automation tools:public"
-)
-
-mkdir -p "$BASE_DIR"
-cd "$BASE_DIR"
-
-echo "Setting up portfolio in $BASE_DIR ..."
-echo ""
-
-for entry in "${PROJECTS[@]}"; do
-  IFS=":" read -r name desc visibility <<< "$entry"
-
-  if [ -d "$name" ]; then
-    echo "Skipping '$name' (already exists)"
-    continue
-  fi
-
-  echo "Creating project: $name"
-  mkdir -p "$name"
-  cd "$name"
-
-  # README template
-  cat > README.md << EOF
-# ${name//-/ }
-
-$desc
-
-## Overview
-
-_Describe what this project covers and why you built it._
-
-## What I learned
-
-- _Point 1_
-- _Point 2_
-- _Point 3_
-
-## Structure
-
-\`\`\`
-.
-├── README.md
-└── (add your files, notes, configs, scripts here)
-\`\`\`
-
-## Notes / Writeup
-
-_Add your detailed writeup, screenshots, or links here._
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=2E9EF7&center=true&vCenter=true&width=600&lines=Networking+%2B+Security+%2B+AI;Building+labs%2C+breaking+things%2C+writing+it+up;OverTheWire+Bandit+%2334%2F34+cleared;Currently+learning+Python+%26+offensive+security" alt="Typing SVG" />
+</p>
 
 ---
-Part of my [portfolio](https://github.com/$GITHUB_USERNAME).
-EOF
 
-  # .gitignore
-  cat > .gitignore << 'EOF'
-.DS_Store
-*.log
-__pycache__/
-*.pyc
-.env
-.vscode/
-.idea/
-EOF
+### 🧭 About Me
 
-  # MIT License
-  cat > LICENSE << EOF
-MIT License
+I'm a student in the **GSCSI** filière (Génie des Systèmes Communicants et Sécurité Informatique) at **ENSA Fès**, a Bac+5 Ingénieur d'État program, after two years of classes préparatoires. I'm building toward a career in **cybersecurity and AI security**
 
-Copyright (c) $(date +%Y) $GITHUB_USERNAME
+My approach to learning is simple and repeatable: **watch → take detailed notes → build hands-on labs → write it up publicly.** This repo (and the ones pinned below) are the public trail of that process.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+- 🔭 Currently building:  Python security tooling
+- 🌱 Currently learning: Python (coming from a C background) 
+- 🎓 Completed: all 34 levels of **OverTheWire Bandit**, a multi-lab Cisco Packet Tracer series culminating in a full WAN/VLAN/ACL capstone
+- 💼 Past: IT support observation internship at **Alten Fès**
+- 🗣️ Languages: Arabic (native), French (C1, DALF), English (B2, Cambridge), currently building Spanish (B1) 
+- 📫 Reach me: **ayoubbouayad89@gmail.com** · **** https://www.linkedin.com/in/ayoub-bouayad-1712b3389/ *
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+---
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
-EOF
+### 🛠️ Tech & Tools
 
-  git init -q
-  git add .
-  git commit -q -m "Initial commit: scaffold $name"
+<p align="left">
+  <img src="https://img.shields.io/badge/Cisco-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white" />
+  <img src="https://img.shields.io/badge/pfSense-212121?style=for-the-badge&logo=pfsense&logoColor=white" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white" />
+</p>
 
-  echo "  -> local repo ready at $BASE_DIR/$name"
+---
 
-  if [ "$AUTO_PUSH" = true ] && command -v gh &> /dev/null; then
-    gh repo create "$GITHUB_USERNAME/$name" --"$visibility" --source=. --remote=origin --push
-    echo "  -> pushed to https://github.com/$GITHUB_USERNAME/$name"
-  fi
+### 📌 Featured Projects
 
-  cd "$BASE_DIR"
-  echo ""
-done
+| Project | Description |
+|---|---|
+| [OverTheWire Bandit Writeups](#) | Full walkthrough and notes for all 34 levels — Linux fundamentals, privilege escalation basics, and shell tricks |
+| [ALTEN Global Network Simulation](#) | Capstone Packet Tracer project: multi-site WAN, VLANs, router-on-a-stick, ACLs, and a custom HTTP portal |
+| [Cisco Packet Tracer Lab Series](#) | Progressive networking labs building up from basic topologies to the capstone above |
 
-echo "Done. Projects scaffolded in: $BASE_DIR"
-echo ""
-if [ "$AUTO_PUSH" = false ]; then
-  echo "AUTO_PUSH is off. To push manually for each project:"
-  echo "  cd $BASE_DIR/<project-name>"
-  echo "  gh repo create $GITHUB_USERNAME/<project-name> --public --source=. --remote=origin --push"
-  echo "(or create the repo on github.com and use: git remote add origin <url> && git push -u origin main)"
-fi
+
+---
+
+### 📊 GitHub Stats
+
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=default&hide_border=true" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&hide_border=true" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_GITHUB_USERNAME&hide_border=true" />
+</p>
+
+---
+
+### 🎯 What I'm working toward
+
+- ✅ GSCSI-bundled certifications (Cisco, Huawei, AWS, Internet Society)
+- 🔜 Publishing every lab and writeup here as I build them
+
+<p align="center"><i>Always learning, always documenting.</i></p>
